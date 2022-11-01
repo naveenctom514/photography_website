@@ -1,103 +1,114 @@
-.navbaree{
-    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.navbaree {
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.navbaree{
-    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.navbaree {
+    font-family: 'Times New Roman', Times, serif;
 
 
 }
-.edlearn{
-    font-family: cursive;
-    font: bolder;
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
     color: white;
 
+
+
 }
-#sentance{
+
+#sentance {
     font-size: 50px;
     font-weight: bolder;
     color: aqua;
     font-size: 300%;
     text-align: center;
 }
-#sentancetwo{
+
+#sentancetwo {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: end;
     font-size: medium;
 }
 
-#sentancethree{
+#sentancethree {
     color: white;
     text-align: end;
 }
-#sentancefour{
+
+#sentancefour {
     text-align: center;
-    color:black;
+    color: black;
 }
-.card{
+
+.card {
     align-items: center;
     background-color: blue;
     border-width: thick;
     border-color: white;
 
 }
-#sentancefive{
-    
-    font-weight: bolder;
-    color: white;
-    font-size: 400%;
-    text-align: center;
-}
-#six{
-    
+
+#sentancefive {
+
     font-weight: bolder;
     color: white;
     font-size: 400%;
     text-align: center;
 }
 
+#six {
 
-.about{
+    font-weight: bolder;
+    color: white;
+    font-size: 400%;
+    text-align: center;
+}
+
+
+.about {
     color: white;
     background-color: black;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
-.projects{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
-    color: white;
-}
-
-#welcome{
-    text-align: center;
-    color: white;
-    padding-top: 100px;
-    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 
-#startbutton{
-    color: black;
-    background-color: #27a776;
-    font-weight: 500;
-    border-style: dotted;
-    margin: 15px 0;
-    
+.projects {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
 }
 
 
-#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+#portfolio .container-fluid,
+#portfolio .container-sm,
+#portfolio .container-md,
+#portfolio .container-lg,
+#portfolio .container-xl,
+#portfolio .container-xxl {
     max-width: 1920px;
-  }
-  #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+}
+
+#portfolio .container-fluid .portfolio-box,
+#portfolio .container-sm .portfolio-box,
+#portfolio .container-md .portfolio-box,
+#portfolio .container-lg .portfolio-box,
+#portfolio .container-xl .portfolio-box,
+#portfolio .container-xxl .portfolio-box {
     position: relative;
     display: block;
-  }
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption,
+#portfolio .container-md .portfolio-box .portfolio-box-caption,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,30 +120,134 @@
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(244, 98, 58, 0.9);
+    background: #2cbc85;
     transition: opacity 0.25s ease;
     text-align: center;
-  }
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-md .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
-  }
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-    font-size: 1.2rem;
-  }
-  #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-  }
+}
 
-#card-body{
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-md .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 1.2rem;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-sm .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-md .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-lg .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+#card-body {
     background-color: black;
 }
 
-#btn{
-    color: black;
-    background-color: #27a776;
-    font-weight: 500;
-    margin: 15px 0;
+
+.pic {
+    width: 70%;
+    align-items: center;
+}
+
+
+.hero {
+    width: 100%;
+    min-height: 30vh;
+    background: #000;
+    background-size: cover;
+    position: relative;
+    padding: 140px 0 60px 0;
+    font-family: ;
+}
+
+.hero p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.hero h2 {
+    margin: 0 0 10px 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero .btn-get-started {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+    background: #509b7e;
+    text-decoration: none;
+}
+
+.hero .btn-get-started:hover {
+    background: #2cbc85;
+}
+
+#btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+    background: #509b7e;
+    text-decoration: none;
+
+}
+
+#btn:hover {
+    background: #2cbc85;
+}
+
+#btn-contact {
+    background: #509b7e;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+
+}
+
+#btn-contact:hover {
+    background: #2cbc85;
+
+}
+
+.h4 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
